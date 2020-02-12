@@ -19,15 +19,15 @@ const int hijau = D1;
 MFRC522 mfrc522(SDA, RST);
 
 // Replace with your network credentials
-const char* ssid     = "Dosen";
-const char* password = "Dos3nUtyH3bat#";
+const char* ssid     = "xxx"; // ganti dengan ssid wifi mu
+const char* password = "xxx"; // ganti dengan password wifi mu
 
 // REPLACE with your Domain name and URL path or IP address with path
-const char* serverName = "http://absen.robotikauty.or.id/log.php";
+const char* serverName = "http://absen.xxx.xxx.com/xxx"; // ganti dengan url yang ingin di tuju
 
 // Keep this API Key value to be compatible with the PHP code provided in the project page. 
 // If you change the apiKeyValue value, the PHP file /post-esp-data.php also needs to have the same key 
-String apiKeyValue = "tPmAT5Ab3j7F9";
+String apiKeyValue = "xxxx"; // ganti api sesukamu
 
 
 void setup() {
