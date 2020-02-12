@@ -16,14 +16,14 @@ const int buzzer = D0;
 const int hijau = D1;
 
 // Replace with your network credentials
-const char* ssid     = "kebaratan";
-const char* password = "Wifilemot";
+const char* ssid     = "kebaratan"; // ganti dengan ssid wifi mu
+const char* password = "Wifilemot"; // ganti dengan passwod wifi mu
 
 String myKey = "2";
 
 // REPLACE with your Domain name and URL path or IP address with path
-const char* serverName = "http://gaskenjogja.000webhostapp.com/api/json/2.json";
-const char* serverApi = "http://gaskenjogja.000webhostapp.com/api/nodemcuapi.php";
+const char* serverName = "http://gaskenjogja.000webhostapp.com/xxxx"; // ganti dengan url yang ingin di tuju
+const char* serverApi = "http://gaskenjogja.000webhostapp.com/xxxx";  // ganti dengan url yang ingin di tuju
 
 void setup() {
   Serial.begin(115200);
