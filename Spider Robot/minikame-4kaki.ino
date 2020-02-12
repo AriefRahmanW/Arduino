@@ -1,7 +1,7 @@
 #include <Servo.h>
 
-Servo satu_k;
-Servo satu_l;
+Servo satu_k;  // satu_k berarti servo pada kaki kiri atas
+Servo satu_l;  // satu_k berarti servo pada lengan kiri atas
 Servo dua_k;
 Servo dua_l;
 Servo tiga_k;
